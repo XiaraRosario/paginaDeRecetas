@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banana Pie</title>
+       <!--Icom-->
+    <link rel="icon" type="image/x-icon" href="img/magdalena.png">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <!--Boostrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <!--Barra de navegación -menú -->
+
+    <header>
+        <div class="container">
+          <div class="logo-box">
+            <a href="#">
+              <img src="img/logo.png" height="65" alt="logo Banana Pie">
+            </a>
+          </div>
+          <nav>
+          <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#destacadas">Destacadas</a></li>
+            <li><a href="#recetas">Recetas</a></li>
+            <li><a href="#opiniones">Opiniones</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+         </ul>
+        </nav>
+        </div>
+      </header>
+
+      <!--Carrusel azul-->
+      <div id="home" class="blue-box">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <!--Slides-->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/1.png" class="d-block w-100 d-img" alt="Slider 1">
+          </div>
+          <div class="carousel-item">
+            <img src="img/2.png" class="d-block w-100" alt="Slider 2">
+          </div>
+        </div>
+        <!--Botones-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!--Separador-->
+
+  <div class="separator">
+    <div class="line"></div>
+    <h1>Destacadas de la semana</h1>
+  </div>
+
+    <!--Boostrap card para recetas destacadas-->
+
+<div id="destacadas" class="card-container">
+    <div class="card">
+        <img src="img/pastel-delicioso-dulce-fresas-baiser-plato_181624-43087.jpg" alt="Receta 1">
+        <h3>Pastel de chocolate</h3>
+        <p>En un tazón grande, mezcla 1 taza de harina, 1 taza de azúcar, 1/2 taza de cacao en polvo, 1 cucharadita de polvo de hornear. Añade 1 huevo, 1/2 taza de leche, 1/4 de taza de aceite vegetal y 1 cucharadita de extracto de vainilla. <br> <br> Vierte la masa en un molde previamente engrasado. Precalienta el horno a 180°C. Hornea la mezcla durante 30-35 minutos y decora con fresas frescas</p>
+    
+
+    </div>
+    <div class="card">
+        <img src="img/disparo-vertical-delicioso-tiramisu-vasitos-polvo-sobre-mesa-blanca_181624-57517.jpg" alt="Receta 2">
+        <h3>Tiramisú</h3>
+        <p>Prepara 1 taza de café fuerte y deja enfriar. En un tazón, bate 3 yemas de huevo con 1/2 taza de azúcar hasta obtener una mezcla cremosa. Añade 1 taza de queso mascarpone y 1/4 de taza de licor de café. <br> <br> Remoja los bizcochos de soletilla en el café y colócalos en un molde. Alterna capas de bizcochos y la mezcla de queso. Refrigera durante al menos 4 horas. Espolvorea cacao en polvo antes de servir.</p>
+    </div>
+    <div class="card">
+        <img src="img/tiro-angulo-alto-deliciosos-cupcakes-chocolate-cobertura-crema-blanca.jpg" alt="Receta 3">
+        <h3>Cupcakes de chocolate</h3>
+        <p>En un tazón grande, mezcla 1 taza de harina, 1/2 taza de azúcar, 1/3 de taza de cacao en polvo, 1 cucharadita de polvo de hornear y 1/2 cucharadita de bicarbonato de sodio. Añade 1 huevo, 1/2 taza de leche, 1/4 de taza de aceite vegetal. <br> <br>  Mezcla bien todos los ingredientes. Vierte la masa en moldes para cupcakes y hornea a 180°C durante 18-20 minutos. Deja enfriar y decora al gusto.</p>
+    
+    </div>
+    <div class="card">
+        <img src="img/mujer-sirviendo-delicioso-pastel-limon-glaseado-encima-mesa-blanca_181624-58169.jpg" alt="Receta 4">
+        <h3>Pastel de limón</h3>
+        <p>En un tazón, mezcla 2 tazas de harina, 1 taza de azúcar, 1/2 taza de jugo de limón, 1 cucharadita de ralladura de limón, 1 cucharadita de polvo de hornear. Añade 2 huevos, 1/2 taza de leche y 1/4 de taza de aceite vegetal. <br> <br> Mezcla bien todos los ingredientes. Vierte la masa en un molde para pastel previamente engrasado y hornea a 180°C durante 30-35 minutos. Deja enfriar antes de servir.</p>
+    </div>
+</div>
+
+        <!--Separador-->
+<div class="separator">
+    <div class="line"></div>
+    <h1>Recetario de temporada</h1>
+</div>
+
+        <!--Boostrap card para recetario de temporada-->
+
+<div id="recetas" class="recipe-cards">
+    <div class="card2">
+            <img src="img/card1.jpg" alt="Receta Tiramisú">
+            <h3>Tiramisú con canela</h3>
+            <p>En un tazón, mezcla 250g de queso mascarpone, 2 cucharadas de azúcar, 1 cucharadita de canela en polvo. Remoja galletas de soletilla en café fuerte y colócalas en un molde.</p>
+        </div>
+
+    <div class="card2">
+            <img src="img/card2.jpg" alt="Receta Brownie">
+            <h3>Brownie de almendras</h3>
+            <p>Derrite 200g de chocolate negro y mézclalo con 150g de mantequilla. Agrega 200g de azúcar, 2 huevos, 1 cucharadita de extracto de vainilla.</p>
+    </div>
+
+    <div class="card2">
+            <img src="img/card3.jpg" alt="Receta Pastel de cereza">
+            <h3>Pastel de cereza</h3>
+            <p>Precalienta el horno a 180°C y engrasa un molde para pastel. Mezcla 1 taza de harina, 1 taza de azúcar y 1 taza de cerezas en un tazón grande. Añade 2 huevos y 1/2 taza de leche.</p>
+    </div>
+
+    <div class="card2">
+            <img src="img/card4.jpg" alt="Receta Flan de chocolate">
+            <h3>Flan de chocolate</h3>
+            <p>Precalienta el horno a 180°C y coloca un molde para flan dentro de una fuente para horno con agua caliente. Derrite 200 gramos de chocolate negro.</p>
+    </div>
+
+    <div class="card2">
+            <img src="img/card5.jpg" alt="Receta Brazo gitano">
+            <h3>Brazo gitano</h3>
+            <p>Para preparar un brazo gitano, corta 4 brazos gita os por la mitad. Rellénalos con chocolate al gusto. Coloca los brazos cortados rellenos en una bandeja y hornea a 80C.</p>
+    </div>
+
+    <div class="card2">
+            <img src="img/card6.jpg" alt="Receta Helado de banana">
+            <h3>Helado de Banana</h3>
+            <p> Para un helado de banana casero, pela y corta 4 bananas maduras en rodajas. Congélalas durante al menos 2 horas. Luego, coloca las bananas congeladas en una licuadora.</p>
+    </div>
+
+    <div class="card2">
+            <img src="img/card7.jpg" alt="Receta Cheescake">
+            <h3>Cheescake</h3>
+            <p>Para un cheesecake sencillo, mezcla 400 gramos de queso crema con 1 taza de azúcar y 1 cucharadita de extracto de vainilla. Agrega 3 huevos y mezcla bien. Vierte la mezcla.</p>
+    </div>
+
+    <div class="card2">
+            <img src="img/card8.jpg" alt="Receta Donas de azúcar">
+            <h3>Donas de azúcar</h3>
+            <p>Para hacer donas de azúcar, mezcla 2 tazas de harina, 1/2 taza de azúcar, 2 cucharaditas de polvo de hornear y 1/2 cucharadita de sal. Añade 2 huevos, 1 taza de leche.</p>
+    </div>
+</div>
+
+        <!--Separador-->
+
+<div class="separator">
+    <div class="line"></div>
+</div> 
+
+<!-- Sección de opiniones de usuarios -->
+<div id="opiniones" class="opinion-container">
+<div class="opiniones">
+    <h4>Opiniones de los usuarios</h4>
+    <div class="opinion">
+        <div class="usuario">
+            <img src="img/usuario1.png" alt="Usuario 1" class="perfil">
+            <h6>Juan Emilio</h6>
+        </div>
+        <p>Ya llevo tres rondas del brownie de almendra, no puedo parar.</p>
+    </div>
+
+    <div class="opinion">
+        <div class="usuario">
+            <img src="img/usuario2.jpg" alt="Usuario 2" class="perfil">
+            <h6>Martha De la Rosa</h6>
+        </div>
+        <p>Intercambié las cerezas por fresas y la receta quedó riquisima, jeje.</p>
+    </div>
+
+    <!-- Formulario para nuevo comentario -->
+    <div class="nuevo-comentario">
+        <form>
+            <label for="comentario">Comentario:</label>
+            <input type="text" id="comentario" name="comentario" placeholder="Escribe tu comentario..." required>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</div>
+</div>
+
+        <!--Apartado de contacto con correo-->
+
+<section id="contacto" class="contacto-seccion">
+    <div class="container">
+        <div class="contacto-content">
+            <h2>Hablemos</h2>
+            <p>Escríbeme para más información de las recetas.</p>
+            <a href="mailto:tu-xiararosarioramirez@gmail.com" class="contacto-button">Contáctame</a>
+        </div>
+    </div>
+</section>
+
+   <!-- Pie de pagina (footer) -->
+  
+   <footer class="site-footer">
+    <div class="container2">
+        <div class="footer-content">
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="copyright-text">
+                &copy; 2023 BananaPie. Todos los derechos reservados.
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
